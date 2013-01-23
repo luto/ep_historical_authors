@@ -1,0 +1,12 @@
+{
+  "name": "ep_historicalAuthors",
+  "description": "",
+  "version": "0.0.1",
+  "author": {
+    "name": "luto",
+    "email": "m@luto.at",
+    "url": "http://luto.at/"
+  },
+  "contributors": [],
+  "dependencies": {}
+}

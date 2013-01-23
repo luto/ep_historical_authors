@@ -1,0 +1,15 @@
+{
+  "parts":[
+    {
+      "name": "ep_historicalAuthors",
+      "hooks": {
+        "eejsBlock_userlist": "ep_historicalAuthors/index.js:eejsBlock_userlist",
+        "eejsBlock_styles": "ep_historicalAuthors/index.js:eejsBlock_styles"
+      },
+      "client_hooks": {
+        "documentReady" : "ep_historicalAuthors/static/js/index:documentReady",
+        "postAceInit" : "ep_historicalAuthors/static/js/index:postAceInit"
+      }
+    }
+  ]
+}

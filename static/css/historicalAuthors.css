@@ -1,0 +1,24 @@
+#histAuthorsCheckboxLabel
+{
+    color: black;
+}
+
+#histUsers td {
+  height: 26px;
+  vertical-align: middle;
+  padding: 0 2px;
+  color: #333;
+}
+
+#histUsers .swatch {
+  border: 1px solid #000;
+  width: 13px;
+  height: 13px;
+  overflow: hidden;
+  margin: 0 4px;
+}
+
+#histUsers .swatch {
+  border: 1px solid #ccc !important;
+  color: #333;
+}
