@@ -6,12 +6,12 @@ exports.documentReady = function(hook, context)
 exports.postAceInit = function(hook, context)
 {
   var data = clientVars.collab_client_vars.historicalAuthorData;
-console.log(data);
+
   for(var user in data)
   {
     var html = '<tr><td style="height: 26px;" class="usertdswatch"><div class="swatch" style="background:' + data[user].colorId + '">&nbsp;</div></td>';
     html += '<td style="height: 26px;" class="usertdname"';
-    console.log(data[user].name);
+
     if(!data[user].name || data[user].name.length == 0)
       html += ' data-l10n-id="pad.userlist.unnamed">' + _("pad.userlist.unnamed");
     else

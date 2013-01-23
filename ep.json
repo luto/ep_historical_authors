@@ -1,14 +1,14 @@
 {
   "parts":[
     {
-      "name": "ep_historicalAuthors",
+      "name": "ep_historical_authors",
       "hooks": {
-        "eejsBlock_userlist": "ep_historicalAuthors/index.js:eejsBlock_userlist",
-        "eejsBlock_styles": "ep_historicalAuthors/index.js:eejsBlock_styles"
+        "eejsBlock_userlist": "ep_historical_authors/index.js:eejsBlock_userlist",
+        "eejsBlock_styles": "ep_historical_authors/index.js:eejsBlock_styles"
       },
       "client_hooks": {
-        "documentReady" : "ep_historicalAuthors/static/js/index:documentReady",
-        "postAceInit" : "ep_historicalAuthors/static/js/index:postAceInit"
+        "documentReady" : "ep_historical_authors/static/js/index:documentReady",
+        "postAceInit" : "ep_historical_authors/static/js/index:postAceInit"
       }
     }
   ]
