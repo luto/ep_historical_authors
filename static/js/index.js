@@ -6,6 +6,13 @@ exports.documentReady = function(hook, context)
 exports.postAceInit = function(hook, context)
 {
   var data = clientVars.collab_client_vars.historicalAuthorData;
+  
+  if(Object.keys(data).length == 0)
+  {
+	$('#histAuthorsCheckbox').css('display', 'none');
+	$('#histAuthorsCheckboxLabel').css('display', 'none');
+	$('#noHistAuthors').css('display', 'inline');
+  }
 
   for(var user in data)
   {

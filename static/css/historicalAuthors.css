@@ -1,6 +1,19 @@
-#histAuthorsCheckboxLabel
-{
-    color: black;
+#histAuthorsCheckboxLabel {
+  color: black;
+}
+
+#histAuthorsCheckbox {
+  margin-left: 2px;
+}
+
+#noHistAuthors {
+  display: none;
+  color: black;
+}
+
+#histUsers {
+  margin-left: 7px;
+  margin-top: 3px;
 }
 
 #histUsers td {

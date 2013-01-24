@@ -1,4 +1,5 @@
 {
   "@metadata": { "authors": { "0": "luto" } },
-  "pad.userlist.showHistoricalAuthors": "Show historical authors"
+  "pad.userlist.showHistoricalAuthors": "Show historical authors",
+  "pad.userlist.noHistoricalAuthors": "There are no historical authors."
 }
