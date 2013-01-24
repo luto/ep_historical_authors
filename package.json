@@ -1,7 +1,7 @@
 {
   "name": "ep_historical_authors",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Allows you to view a list of offline-authors who have edited the pad in the past.",
+  "version": "0.0.2",
   "author": {
     "name": "luto",
     "email": "m@luto.at",
