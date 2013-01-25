@@ -31,8 +31,5 @@ exports.postAceInit = function(hook, context)
 
 function histAuthorClick()
 {
-  if($('#histUsers').css('display') == 'table')
-    $('#histUsers').css('display', 'none');
-  else
-    $('#histUsers').css('display', 'table');
+  $('#histUsers').toggle();
 }
